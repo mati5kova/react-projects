@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.count {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    font-size: xx-large;
+}
+
+.button {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+}
+
+.buttonShape {
+    height: 2rem;
+    width: 3rem;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+    font-size: 1.5rem;
+    color: rgb(105, 104, 104);
+}
+
+.buttonShape:active {
+    transform: translateY(-1px);
+}
+
+.incrementButton {
+    position: inherit;
+    left: 10px;
+}
+
+.decrementButton {
+    position: inherit;
+    right: 10px;
+}
